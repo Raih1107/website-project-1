@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="result">
+            <!-- <button id="dark-mode-toggle">
+                <span id="mode-icon"></span>
+                </button> -->
+        <p class="heading">
+            Your Result
+        </p>
+        <div class="score">
+            
+            <p class="one">76</p>
+            <p class="two">out of 100</p>
+        </div>
+        <div class="heading2">
+            <p class="three">Great</p>
+            <p class="four">You scored higher than 65% of <br> the people who have taken <br> these tests.</p>
+        </div>
+        </div>
+        
+        <div class="sumry">
+            <div class="heading3">
+                <p class="head">Summary</p>
+            </div>
+            <div class="stats">
+                <div class="react">
+                    <img src="icon-reaction.svg" alt="" class="icon">
+                    <p class="type">Reaction</p>
+                    <p class="points">80</p>
+                    <p class="out_of">/100</p>
+                </div>
+                <div class="mem">
+                    <img src="icon-memory.svg" alt="">
+                    <p class="type">Memory</p>
+                    <p class="points">93</p>
+                    <p class="out_of">/100</p>
+
+                </div>
+                <div class="ver">
+                    <img src="icon-verbal.svg" alt="">
+                    <p class="type">Verbal</p>
+                    <p class="points">61</p>
+                    <p class="out_of">/100</p>
+                </div>
+                <div class="vis">
+                    <img src="icon-visual.svg" alt="">
+                    <p class="type">Visual</p>
+                    <p class="points">78</p>
+                    <p class="out_of">/100</p>
+                </div>
+            </div>
+            <div class="continue">
+            Continue
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // Function to toggle dark mode
+function toggleDarkMode() {
+    const body = document.body;
+    body.classList.toggle("dark-mode");
+}
+
+// Event listener for the button click
+const darkModeToggle = document.getElementById("dark-mode-toggle");
+darkModeToggle.addEventListener("click", toggleDarkMode);
+
+</script>
+</html>

@@ -1,0 +1,291 @@
+*{
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+/* Styles for the dark mode toggle button */
+#dark-mode-toggle {
+    /* position: fixed; */
+    align-self:start ;
+    margin: 1em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the mode icon (you can replace this with your own icon) */
+#mode-icon::before {
+    content: "\1F319"; /* Unicode for a moon icon (you can replace with your own icon) */
+    font-size: 24px;
+}
+/* Styles for dark mode */
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height:30em;
+    width: 40em;
+    margin: 5% 25%  ;
+    /* border: 2px solid black; */
+    border-radius: 40em;
+    box-shadow: 4px 4px 4px 4px rgb(225, 225, 225);
+    background-color: rgb(67, 31, 197);
+
+
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:50% ;
+    /* border: 1px dashed green; */
+    border-radius: 40px;
+    background-color: hsl(153, 71%, 53%);
+}
+
+.heading{
+    color: #ffffffb6;
+    text-align: center;
+    /* margin-left: 100px; */
+    /* margin-top: 30px; */
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    
+}
+
+.score{
+    width: 8.5em;
+    border-radius: 8.5em;
+    border: 1px solid rgb(44, 6, 6);
+    background-color: rgb(49, 49, 184);
+    /* margin-left: 60px; */
+    /* margin-top: 30px; */
+    padding: 20px;
+}
+
+.one{
+    font-size: 60px;
+    margin-top:5px;
+    text-align: center;
+    /* margin-left: 35px; */
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.two{
+    color: rgba(255, 255, 255, 0.526);
+    margin-top: 0px;
+    text-align: center;
+    /* margin-left: 35px; */
+}
+
+.three{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    /* margin-left: 110px; */
+    display: flex;
+    justify-content: center;
+}
+.four{
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+.sumry{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:50% ;
+    /* border: 1px none green; */
+    border-radius: 40px;
+    background-color: rgb(67, 31, 197);
+}
+
+.head{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left:30px ;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+
+}
+
+.stats{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+}
+
+.react{
+    padding:5px;
+    display: flex;
+    flex-flow:row nowrap ;
+    border-radius: 10px;
+    background-color: rgb(242, 227, 229);
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+} 
+
+.react .icon{
+    /* margin-top: 15px; */
+    justify-self: self-start;
+    
+}
+
+.react .type{
+    color: rgb(244, 58, 58);
+    margin-left: 1em;
+    margin-right: 5em;
+}
+
+.react .points{
+    color: black;
+}
+
+.react .out_of{
+    color: rgba(0, 0, 0, 0.507);
+} 
+
+.mem{
+    padding:5px;
+    display: flex;
+    flex-flow:row nowrap ;
+    border-radius: 10px;
+    background-color: rgb(242, 245, 206);
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+}
+
+.mem .icon{
+    justify-self: self-start;
+    
+    
+}
+
+.mem .type{
+    color: rgb(249, 212, 2);
+
+    margin-left: 1em;
+    margin-right: 5.3em;
+}
+
+.mem .points{
+    color: black;
+}
+
+.mem .out_of{
+    color: rgba(0, 0, 0, 0.507);
+}
+
+
+.ver{
+    padding: 5px;
+    display: flex;
+    flex-flow:row nowrap ;
+    border-radius: 10px;
+    background-color: rgb(177, 227, 220);
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+}
+
+.ver .icon{
+    justify-self: self-start;
+    
+}
+
+.ver .type{
+    color: rgb(9, 186, 186);
+    margin-left: 1em;
+    margin-right: 6.2em;
+}
+
+.ver .points{
+    color: black;
+
+}
+
+.ver .out_of{
+    color: rgba(0, 0, 0, 0.507);
+
+}
+
+
+.vis{
+    padding: 5px;
+    display: flex;
+    flex-flow:row nowrap ;
+    border-radius: 10px;
+    background-color: rgb(187, 163, 249);
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+}
+
+.vis .icon{
+    justify-self: self-start;
+    
+    
+}
+
+.vis .type{
+    color: rgb(27, 2, 249);
+    margin-left: 1em;
+    margin-right: 6.3em;
+    
+
+}
+
+.vis .points{
+    color: black;
+
+}
+
+.vis .out_of{
+    color: rgba(0, 0, 0, 0.507);
+    
+}
+
+.continue{
+    
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 80px;
+    background-color: rgba(2, 10, 67, 0.771);
+    text-align: center;
+    padding: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: none;
+    height: 1500px;
+    width: 745px ;
+    margin: 0;
+}
+.result,.sumry{
+    height:50% ;
+    width: 50%;
+}
+
+}
+
